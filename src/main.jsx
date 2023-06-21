@@ -2,7 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import DoenetML from 'doenetml';
+import {DoenetML} from '@doenet/doenetml';
+import "./DoenetML.css";
 
 let doenetML = `Hi Duane <graph><regularPolygon center="($s, 0)"/></graph><mathinput name='f'/>$f<spreadsheet />
   <video youtube='ZZ5LpwO-An4' name='v'/><callaction target='v' actionName='playVideo' />
