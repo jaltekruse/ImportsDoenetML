@@ -13,6 +13,6 @@ export { ReactDOM_2 as ReactDOM }
  * it is assumed that `container` has a `<script type="text/doenetml">` child which
  * stores the source.
  */
-export declare function renderDoenetToContainer(container: Element, doenetMLSource?: string, config?: object): void;
+export declare function renderDoenetToContainer(container: Element, doenetMLSource?: string): void;
 
 export { }
